@@ -68,6 +68,13 @@ header .header-content .active {
     border-bottom: 1px solid #37517e;
 }
 
+header .header-content .login {
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 5px;
+    background-color: #37517e;
+}
+
 .social-icon a {
     display: inline-block;
     margin: 0 6px;
@@ -113,6 +120,10 @@ section {
     justify-content: center;
     background: url(../images/hero-bg.png) top center no-repeat;
     background-size: cover;
+}
+
+section .text-box h2 {
+    color: #37517e;
 }
 
 section .text-box p {
