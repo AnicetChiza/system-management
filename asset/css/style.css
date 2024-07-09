@@ -68,6 +68,39 @@ header .header-content .active {
     border-bottom: 1px solid #37517e;
 }
 
+.social-icon a {
+    display: inline-block;
+    margin: 0 6px;
+    text-decoration: none;
+    color: #666;
+    transition: color 0.3s ease-in-out;
+}
+
+.social-icon a .bi {
+    filter: grayscale(100%);
+    transition: filter 0.3s ease-in-out;
+}
+
+.social-icon a.facebook:hover .bi {
+    filter: grayscale(0%);
+    color: #1877F2;
+}
+
+.social-icon a.instagram:hover .bi {
+    filter: grayscale(0%);
+    color: #E1306C;
+}
+
+.social-icon a.linkedin:hover .bi {
+    filter: grayscale(0%);
+    color: #0A66C2;
+}
+
+.social-icon a.youtube:hover .bi {
+    filter: grayscale(0%);
+    color: #FF0000;
+}
+
 
 /* Section */
 
