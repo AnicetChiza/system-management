@@ -34,3 +34,18 @@ body {
     font-size: 16px;
     font-family: "Onest", sans-serif;
 }
+
+
+/* Header */
+
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header img {
+    width: 150px;
+    height: auto;
+}
