@@ -61,18 +61,36 @@ header .header-content {
 
 header .header-content a {
     color: #37517e;
+    transition-delay: 0.4s;
+    transition: 0.8s ease-in-out;
+}
+
+header .header-content a:hover {
+    color: #c6ac6f;
 }
 
 header .header-content .active {
     border-radius: 3px;
+    transition-delay: 0.4s;
+    transition: 0.8s ease-in-out;
     border-bottom: 1px solid #37517e;
+}
+
+header .header-content .active:hover {
+    border-bottom: 1px solid #c6ac6f;
 }
 
 header .header-content .login {
     color: #fff;
     padding: 5px 15px;
     border-radius: 5px;
+    transition-delay: 0.4s;
+    transition: 0.8s ease-in-out;
     background-color: #37517e;
+}
+
+header .header-content .login:hover {
+    background-color: #c6ac6f;
 }
 
 .social-icon a {
