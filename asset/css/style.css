@@ -115,6 +115,13 @@ section {
     background-size: cover;
 }
 
+section .text-box p {
+    width: 60%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 
 /* Footer */
 
