@@ -52,6 +52,22 @@ header img {
     height: auto;
 }
 
+header .header-content {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    -webkit-column-gap: 25px;
+}
+
+header .header-content a {
+    color: #37517e;
+}
+
+header .header-content .active {
+    border-radius: 3px;
+    border-bottom: 1px solid #37517e;
+}
+
 
 /* Section */
 
