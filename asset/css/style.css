@@ -90,6 +90,7 @@ header .header-content .login {
 }
 
 header .header-content .login:hover {
+    color: #fff;
     background-color: #c6ac6f;
 }
 
