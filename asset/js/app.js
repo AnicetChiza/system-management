@@ -1,3 +1,9 @@
+//Preloader
+setTimeout(function () {
+    const preloader = document.querySelector('.preloader');
+    preloader.style.display = 'none';
+}, 4000);
+
 const image = document.querySelector('.image-box img');
 
 image.addEventListener('mouseenter', () => {
