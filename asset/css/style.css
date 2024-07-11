@@ -208,6 +208,11 @@ section .text-box .login:hover {
     background-color: #fff;
 }
 
+.login-section .login-form h1 {
+    color: #37517e;
+    margin-bottom: 20px;
+}
+
 .login-section .login-form .inputs {
     display: flex;
     gap: 5px;
@@ -250,6 +255,19 @@ section .text-box .login:hover {
 .login-section .forgot-password a {
     color: #37517e;
     font-size: 14px;
+}
+
+.login-section .create-account {
+    display: flex;
+    gap: 4px;
+    font-size: 14px;
+    margin-top: 20px;
+    justify-content: center;
+    -webkit-column-gap: 4px;
+}
+
+.login-section .create-account a {
+    color: #37517e;
 }
 
 
