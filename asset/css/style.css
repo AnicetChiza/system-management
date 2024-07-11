@@ -228,10 +228,13 @@ section .text-box .login:hover {
     color: #37517e;
 }
 
+.login-section .login-form .input-submit {
+    margin-top: 20px;
+}
+
 .login-section .login-form .input-submit input {
     width: 100%;
     color: #fff;
-    margin-top: 10px;
     font-weight: 700;
     padding: 10px 15px;
     border-radius: 20px;
