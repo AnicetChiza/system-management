@@ -178,6 +178,10 @@ section .text-box .login:hover {
     background-size: cover;
 }
 
+.login-section .login-content {
+    background-color: #d3d3d359;
+}
+
 
 /* Footer */
 
