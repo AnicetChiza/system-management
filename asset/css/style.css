@@ -165,6 +165,22 @@ section .text-box .login:hover {
     background-color: #c6ac6f;
 }
 
+section .image-box img {
+    animation: upAndDown 2s infinite;
+    transition: transform 0.1s ease-out;
+    transform-style: preserve-3d;
+}
+
+@keyframes upAndDown {
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+}
+
 
 /*--------------------------------------------------------------
 # Login page
