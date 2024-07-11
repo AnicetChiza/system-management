@@ -208,7 +208,7 @@ section .text-box .login:hover {
     background-color: #fff;
 }
 
-.login-section .login-form h1 {
+.login-section .login-form h3 {
     color: #37517e;
     margin-bottom: 20px;
 }
