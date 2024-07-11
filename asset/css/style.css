@@ -195,7 +195,7 @@ section .text-box .login:hover {
 }
 
 section .image-box img {
-    animation: upAndDown 100s infinite;
+    animation: upAndDown 5s infinite;
     transition: transform 0.1s ease-out;
     transform-style: preserve-3d;
 }
