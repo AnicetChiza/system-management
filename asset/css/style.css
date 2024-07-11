@@ -200,6 +200,10 @@ section .text-box .login:hover {
     background-color: #37517e;
 }
 
+.login-section .login-form {
+    background-color: #fff;
+}
+
 
 /* Footer */
 
