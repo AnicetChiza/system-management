@@ -166,7 +166,9 @@ section .text-box .login:hover {
 }
 
 
-/* Login page */
+/*--------------------------------------------------------------
+# Login page
+--------------------------------------------------------------*/
 
 .login-section {
     width: 100%;
@@ -202,7 +204,7 @@ section .text-box .login:hover {
 }
 
 .login-section .login-form {
-    padding: 15px 20px;
+    padding: 60px 25px;
     background-color: #fff;
 }
 
@@ -212,12 +214,24 @@ section .text-box .login:hover {
     margin-top: 10px;
     padding: 10px 15px;
     align-items: center;
+    border-radius: 20px;
     -webkit-column-gap: 5px;
     background-color: #f4f4f4;
 }
 
 .login-section .login-form .inputs i {
     color: #37517e;
+}
+
+.login-section .login-form .input-submit input {
+    width: 100%;
+    color: #fff;
+    margin-top: 10px;
+    font-weight: 700;
+    padding: 10px 15px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    background-color: #37517e;
 }
 
 .login-section .login-form input {
