@@ -344,10 +344,6 @@ footer a {
 --------------------------------*/
 
 @media screen and (max-width: 1170px) {
-    section {
-        display: grid;
-        grid-template-columns: auto auto;
-    }
     section .image-box img {
         width: 25rem;
     }
@@ -362,17 +358,36 @@ footer a {
     }
 }
 
-@media screen and (max-width: 870px) {
-    section {
-        display: grid;
-        text-align: center;
-        justify-content: none;
-        gap: 0px;
-        -webkit-column-gap: 0px;
-        grid-template-columns: auto;
-    }
+@media screen and (max-width: 931px) {
     section .image-box img {
         width: 20rem;
-        border: 1px solid red;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    section {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    section .text-box p {
+        width: 100%;
+    }
+    .text-box .login {
+        display: flex;
+        width: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 730px) {
+    header .header-content {
+        display: none;
+    }
+    .social-icon {
+        display: none;
     }
 }
