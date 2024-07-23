@@ -164,9 +164,9 @@ section {
     height: 100vh;
     display: flex;
     gap: 10px;
+    -webkit-column-gap: 10px;
     align-items: center;
     padding: 0px 100px;
-    justify-content: space-between;
     background: url(../images/hero-bg.png) top center no-repeat;
     background-size: cover;
 }
@@ -365,6 +365,14 @@ footer a {
 @media screen and (max-width: 870px) {
     section {
         display: grid;
+        text-align: center;
+        justify-content: none;
+        gap: 0px;
+        -webkit-column-gap: 0px;
         grid-template-columns: auto;
+    }
+    section .image-box img {
+        width: 20rem;
+        border: 1px solid red;
     }
 }
