@@ -364,6 +364,15 @@ footer a {
     }
 }
 
+@media screen and (max-width: 800px) {
+    .login-section .login-text {
+        padding: 5px 5px;
+    }
+    .login-section {
+        padding: 10px;
+    }
+}
+
 @media screen and (max-width: 760px) {
     section {
         display: flex;
@@ -389,5 +398,24 @@ footer a {
     }
     .social-icon {
         display: none;
+    }
+}
+
+@media screen and (max-width: 630px) {
+    .login-section .container {
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .login-section .login-text {
+        padding: 45px 20px;
+    }
+}
+
+@media screen and (max-width: 465px) {
+    header {
+        padding: 15px 20px;
+    }
+    section {
+        padding: 0px 20px;
     }
 }
