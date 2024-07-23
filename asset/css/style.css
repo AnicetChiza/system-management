@@ -123,6 +123,10 @@ header .header-content .login:hover {
     background-color: #c6ac6f;
 }
 
+header .header-content .social-icon {
+    display: none;
+}
+
 .social-icon a {
     display: inline-block;
     margin: 0 6px;
