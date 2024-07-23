@@ -27,10 +27,12 @@ document.addEventListener('DOMContentLoaded', () => {
     const list = document.querySelector('.header-content');
     const exit = document.querySelector('.exit');
     const menuIcon = document.querySelector('.menu');
+    const overlay = document.querySelector('.overlay');
 
     if (menuIcon) {
         menuIcon.addEventListener('click', () => {
             list.classList.add('active');
+            overlay.classList.add('active');
             menuIcon.style.display = 'none';
             exit.style.display = 'inline-block';
         });
@@ -39,6 +41,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (exit) {
         exit.addEventListener('click', () => {
             list.classList.remove('active');
+            overlay.classList.remove('active');
             exit.style.display = 'none';
             menuIcon.style.display = 'inline-block';
         });
