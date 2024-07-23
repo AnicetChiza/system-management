@@ -352,3 +352,19 @@ footer a {
         width: 25rem;
     }
 }
+
+@media screen and (max-width: 950px) {
+    header {
+        padding: 15px 30px;
+    }
+    section {
+        padding: 0px 60px;
+    }
+}
+
+@media screen and (max-width: 870px) {
+    section {
+        display: grid;
+        grid-template-columns: auto;
+    }
+}
