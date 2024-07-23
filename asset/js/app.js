@@ -1,13 +1,7 @@
-//Preloader
-setTimeout(function () {
-    const preloader = document.querySelector('.preloader');
-    preloader.style.display = 'none';
-}, 4000);
-
 const image = document.querySelector('.image-box img');
 
 image.addEventListener('mouseenter', () => {
-    image.style.animation = 'none'; // Stop the up and down animation
+    image.style.animation = 'none';
 });
 
 image.addEventListener('mousemove', (e) => {
@@ -21,5 +15,5 @@ image.addEventListener('mousemove', (e) => {
 
 image.addEventListener('mouseleave', () => {
     image.style.transform = 'rotate(0deg)';
-    image.style.animation = 'upAndDown 2s infinite'; // Resume the up and down animation
+    image.style.animation = 'upAndDown 2s infinite';
 });

@@ -337,3 +337,18 @@ footer {
 footer a {
     color: #d2d2d2;
 }
+
+
+/*-------------------------------
+#MEDIA QUERIES
+--------------------------------*/
+
+@media screen and (max-width: 1170px) {
+    section {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    section .image-box img {
+        width: 25rem;
+    }
+}
