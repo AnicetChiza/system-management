@@ -416,7 +416,7 @@ footer a {
         align-items: flex-start;
         padding: 60px 40px;
         background-color: #ffffffe8;
-        transform: translateX(-100%);
+        transform: translateX(-120%);
         z-index: 2001;
     }
     header .header-content.active {
