@@ -419,7 +419,11 @@ footer a {
         height: 90vh;
         align-items: flex-start;
         z-index: 2000;
+        padding: 60px 40px;
         background-color: #ffffffe8;
+    }
+    header .header-content .social-icon {
+        display: initial;
     }
     .bg {
         width: 100%;
