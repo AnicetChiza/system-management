@@ -17,3 +17,30 @@ image.addEventListener('mouseleave', () => {
     image.style.transform = 'rotate(0deg)';
     image.style.animation = 'upAndDown 2s infinite';
 });
+
+
+/*----------------------------------
+#Menu deroulant
+----------------------------------*/
+
+document.addEventListener('DOMContentLoaded', () => {
+    const list = document.querySelector('.header-content');
+    const exit = document.querySelector('.exit');
+    const menuIcon = document.querySelector('.menu');
+
+    if (menuIcon) {
+        menuIcon.addEventListener('click', () => {
+            list.classList.add('active');
+            menuIcon.style.display = 'none';
+            exit.style.display = 'inline-block';
+        });
+    }
+
+    if (exit) {
+        exit.addEventListener('click', () => {
+            list.classList.remove('active');
+            exit.style.display = 'none';
+            menuIcon.style.display = 'inline-block';
+        });
+    }
+});
