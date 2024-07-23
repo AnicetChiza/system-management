@@ -160,6 +160,17 @@ header .header-content .social-icon {
     color: #FF0000;
 }
 
+.exit {
+    display: none;
+    cursor: pointer;
+}
+
+.menu {
+    font-size: 40px;
+    cursor: pointer;
+    display: none;
+}
+
 
 /* Section */
 
@@ -398,10 +409,25 @@ footer a {
 
 @media screen and (max-width: 730px) {
     header .header-content {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        align-items: flex-start;
+    }
+    .bg {
+        width: 100%;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: #00000083;
+    }
+    .icons {
         display: none;
     }
-    .social-icon {
-        display: none;
+    .menu {
+        display: initial;
     }
 }
 
