@@ -412,11 +412,10 @@ footer a {
         display: flex;
         flex-direction: column;
         position: absolute;
-        top: 50px;
-        left: 50px;
-        right: 50px;
-        bottom: 500px;
-        height: 90vh;
+        top: 40px;
+        left: 40px;
+        right: 40px;
+        height: 80vh;
         align-items: flex-start;
         z-index: 2000;
         padding: 60px 40px;
