@@ -65,10 +65,9 @@ body {
 }
 
 
-/* Header */
-
-
-/* General Styles */
+/* --------------------------
+#Header 
+--------------------------- */
 
 header {
     width: 100%;
@@ -126,9 +125,16 @@ header .header-content .social-icon {
     display: none;
 }
 
+.social-icon {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    -webkit-column-gap: 10px;
+}
+
 .social-icon a {
     display: inline-block;
-    margin: 0 6px;
+    margin: 0 4px;
     text-decoration: none;
     color: #666;
     transition: color 0.3s ease-in-out;
