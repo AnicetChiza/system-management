@@ -398,8 +398,8 @@ footer a {
 
 @media screen and (max-width: 760px) {
     section {
+        height: 100vh;
         display: flex;
-        align-items: center;
         justify-content: center;
         flex-direction: column;
     }
@@ -505,6 +505,9 @@ footer a {
     header {
         background-color: #fff;
         box-shadow: 0px 1px 10px hsl(0, 20%, 91%);
+    }
+    section {
+        margin-top: ;
     }
     footer {
         position: static;
