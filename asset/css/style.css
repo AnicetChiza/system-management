@@ -500,3 +500,14 @@ footer a {
         height: 79vh;
     }
 }
+
+@media screen and (max-width: 425px) {
+    header {
+        background-color: #fff;
+        box-shadow: 0px 1px 10px hsl(0, 20%, 91%);
+    }
+    footer {
+        position: static;
+        bottom: auto;
+    }
+}
