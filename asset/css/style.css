@@ -182,7 +182,7 @@ header .header-content .social-icon {
 
 /* Section */
 
-section {
+.general-section {
     width: 100%;
     height: 100vh;
     display: flex;
@@ -194,17 +194,17 @@ section {
     background-size: cover;
 }
 
-section .text-box h2 {
+.general-section .text-box h2 {
     color: #37517e;
 }
 
-section .text-box p {
+.general-section .text-box p {
     width: 90%;
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
-section .text-box .login {
+.general-section .text-box .login {
     color: #fff;
     padding: 10px 15px;
     border-radius: 5px;
@@ -213,11 +213,11 @@ section .text-box .login {
     background-color: #37517e;
 }
 
-section .text-box .login:hover {
+.general-section .text-box .login:hover {
     background-color: #c6ac6f;
 }
 
-section .image-box img {
+.general-section .image-box img {
     animation: upAndDown 5s infinite;
     transition: transform 0.1s ease-out;
     transform-style: preserve-3d;
@@ -367,7 +367,7 @@ footer a {
 --------------------------------*/
 
 @media screen and (max-width: 1170px) {
-    section .image-box img {
+    .general-section .image-box img {
         width: 25rem;
     }
 }
@@ -376,13 +376,13 @@ footer a {
     header {
         padding: 15px 30px;
     }
-    section {
+    .general-section {
         padding: 0px 60px;
     }
 }
 
 @media screen and (max-width: 931px) {
-    section .image-box img {
+    .general-section .image-box img {
         width: 20rem;
     }
 }
@@ -397,13 +397,13 @@ footer a {
 }
 
 @media screen and (max-width: 760px) {
-    section {
+    .general-section {
         height: 100vh;
         display: flex;
         justify-content: center;
         flex-direction: column;
     }
-    section .text-box p {
+    .general-section .text-box p {
         width: 100%;
     }
     .text-box .login {
@@ -489,7 +489,7 @@ footer a {
     header {
         padding: 15px 20px;
     }
-    section {
+    .general-section {
         padding: 0px 20px;
     }
     header .header-content {
@@ -506,11 +506,14 @@ footer a {
         background-color: #fff;
         box-shadow: 0px 1px 10px hsl(0, 20%, 91%);
     }
-    section {
-        margin-top: ;
-    }
     footer {
         position: static;
         bottom: auto;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .general-section h2 {
+        margin-top: 100px;
     }
 }
